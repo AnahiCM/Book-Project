@@ -22,7 +22,14 @@ def Matchgirl():
 @app.route('/matchgirlpage1', methods= ["GET", "POST"])
 def matchgirlPage1():
     matchgirl= matchgirlp1[0]
-    return render_template("matchgirlpage1.html", matchgirl=matchgirl)
+    mAtchgirl=matchgirlp1[1]
+    maTchgirl=matchgirlp1[2]
+    matChgirl=matchgirlp1[3]
+    matcHgirl=matchgirlp1[4]
+    matchGirl=matchgirlp1[5]
+    matchgIrl=matchgirlp1[6]
+    matchgiRl=matchgirlp1[7]
+    return render_template("matchgirlpage1.html", matchgirl=matchgirl, mAtchgirl=mAtchgirl, maTchgirl=maTchgirl, matChgirl=matChgirl, matcHgirl=matcHgirl, matchGirl=matchGirl, matchgIrl=matchgIrl, matchgiRl=matchgiRl)
     
 @app.route('/littlewomen', methods= ["GET", "POST"])
 def Little_Women():
@@ -138,6 +145,10 @@ def littleMermaidPage4():
     merMaid4=lmermaid4[32]
     mermAid4=lmermaid4[33]
     return render_template("littlemermaid4.html", trident=trident, Trident=Trident, tRident=tRident, trIdent=trIdent, triDent=triDent, tridEnt=tridEnt, trideNt=trideNt, tridenT=tridenT, mermaid1=mermaid1, mErmaid1=mErmaid1, merMaid1=merMaid1, mermAid1=mermAid1, mermaId1=mermaId1, mermaiD1=mermaiD1, Mermaid2=Mermaid2, mErmaid2=mErmaid2, meRmaid2=meRmaid2, merMaid2=merMaid2, mermAid2=mermAid2, mermaId2=mermaId2, mermaiD2=mermaiD2, Mermaid3=Mermaid3, mErmaid3=mErmaid3, meRmaid3=meRmaid3, merMaid3=merMaid3, mermAid3=mermAid3, mermaId3=mermaId3, mermaiD3=mermaiD3, Mermaid4=Mermaid4, mErmaid4=mErmaid4, meRmaid4=meRmaid4, merMaid4=merMaid4, mermAid4=mermAid4)
+
+@app.route('/littlemermaidcontents', methods= ["GET", "POST"])
+def MermaidContents():
+    return render_template("littlemermaidcontents.html")
     
 @app.route('/alcestis', methods= ["GET", "POST"])
 def Alcestis():
