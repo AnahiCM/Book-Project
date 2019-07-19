@@ -2,6 +2,7 @@
 <html>
     <head>
         <title>Little Women Page 1</title>
+        <link rel="stylesheet" type="text/css" href="/static/lwomenp1.css">
     </head>
     <body>
         <h1>Little Women by Louisa May Alcott</h1>
@@ -9,6 +10,14 @@
         <h4>{{ littlewomenpage1 }}</h4>
         <form>
             <input type="submit" value="Next"/>
+        </form>
+        <a href="/index">
+        <button>
+            Home Page
+        </button>
+        </a>
+        <form method = "post" action = "/littlewomen">
+            <input type="submit" value="Title Page"/>
         </form>
     </body>
 </html>
