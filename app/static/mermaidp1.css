@@ -2,3 +2,14 @@ body {
     background-color: AliceBlue;
     font-family: "Times New Roman", Times, serif;
 }
+
+input[type=submit] {
+    width: 160px;  
+    background: #F0F8FF;
+    color: #660033;
+    height: 60px;
+    margin: 25px;
+    box-shadow: 10px 10px 20px;
+    font: bold 20px garamond, serif;
+    border: 5px double black;
+}
