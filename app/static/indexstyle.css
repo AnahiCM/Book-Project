@@ -16,7 +16,7 @@ input[type=submit] {
     margin: 25px;
     box-shadow: 10px 10px 20px;
     font-weight: bold;
-    font: bold 40px garamond, sans-serif;
+    font: bold 40px garamond, serif;
     border-color: #660033;
     border-style: double;
     border-width: 5px;
